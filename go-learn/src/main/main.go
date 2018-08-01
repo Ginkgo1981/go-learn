@@ -1,12 +1,12 @@
 package main
 
 import (
-		"github.com/ginkgo1981/go-learn/src/go_model"
+			"github.com/ginkgo1981/go-learn/src/simple-server"
 	)
 
 func main() {
-	//simple_server.StartServer()
+	simple_server.StartServer()
 	//crawler.StartCrawl()
 	//go_model.CreateModel()
-	go_model.PgConnction()
+	//go_model.PgConnction()
 }
