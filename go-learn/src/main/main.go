@@ -1,6 +1,6 @@
 package main
 
-import "github.com/ginkgo1981/go-learn/src/gorilla_mux"
+import "github.com/ginkgo1981/go-learn/src/tips"
 
 func main() {
 	//simple_server.StartServer()
@@ -10,7 +10,9 @@ func main() {
 	//json_marshal.MarshalNow()
 
 	//gorilla_mux.SimpleMuxServer()
-	gorilla_mux.StartWebsocket()
+	//gorilla_mux.StartWebsocket()
+
+	tips.TipNow()
 
 }
 
