@@ -1,6 +1,6 @@
 package main
 
-import "github.com/ginkgo1981/go-learn/src/go_defers"
+import "github.com/ginkgo1981/go-learn/src/go_err_handling"
 
 func main() {
 	//simple_server.StartServer()
@@ -21,7 +21,10 @@ func main() {
 
 	//go_defers.DeferDemo()
 
-	go_defers.WaitGroupDemo()
+	//go_defers.WaitGroupDemo()
+
+	//go_err_handling.CustomErrorDemo()
+	go_err_handling.PanicRecoverDemo()
 }
 
 
