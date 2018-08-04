@@ -1,6 +1,6 @@
 package main
 
-import "github.com/ginkgo1981/go-learn/src/elastic"
+import "github.com/ginkgo1981/go-learn/src/go_defers"
 
 func main() {
 	//simple_server.StartServer()
@@ -12,7 +12,16 @@ func main() {
 	//gorilla_mux.StartWebsocket()
 	//tips.TipNow()
 	//go_redis.RedisClient()
-	elastic.RunElastic()
+	//elastic.RunElastic()
+
+	//go_reflection.ReflectNow()
+
+	//go_reflection.ReflectionLaws()
+	//go_reflection.ReflectModel()
+
+	//go_defers.DeferDemo()
+
+	go_defers.WaitGroupDemo()
 }
 
 
