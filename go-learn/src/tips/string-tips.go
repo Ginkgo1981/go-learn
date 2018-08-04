@@ -23,7 +23,6 @@ func Conv2String() {
 	fmt.Println(t)
 }
 
-
 func ConcatString()  {
 
 	var b bytes.Buffer
@@ -53,13 +52,10 @@ func RandString(lengh int) string {
 	return string(b)
 }
 
-
 func MutilineString()  {
 	str := `this is a
 			mutiline
 			string
 			`
 	fmt.Println(str)
-
-
 }
