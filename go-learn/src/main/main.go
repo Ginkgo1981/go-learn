@@ -1,6 +1,6 @@
 package main
 
-import "github.com/ginkgo1981/go-learn/src/go_err_handling"
+import "github.com/ginkgo1981/go-learn/src/first_class_functions"
 
 func main() {
 	//simple_server.StartServer()
@@ -24,7 +24,8 @@ func main() {
 	//go_defers.WaitGroupDemo()
 
 	//go_err_handling.CustomErrorDemo()
-	go_err_handling.PanicRecoverDemo()
+	//go_err_handling.PanicRecoverDemo()
+	first_class_functions.HighorderFuncionDemo()
 }
 
 
