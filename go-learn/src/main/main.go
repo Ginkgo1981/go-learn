@@ -1,8 +1,6 @@
 package main
 
-import (
-		"github.com/ginkgo1981/go-learn/src/go_oop"
-)
+import "github.com/ginkgo1981/go-learn/src/go_rpc_thrift"
 
 func main() {
 	//simple_server.StartServer()
@@ -30,7 +28,7 @@ func main() {
 
 	//first_class_functions.HighorderFuncionDemo()
 
-	go_oop.PolymorphismDemo()
+	//go_oop.PolymorphismDemo()
+	//go_rpc_thrift.ThriftServer()
+	go_rpc_thrift.ThriftClient()
 }
-
-
