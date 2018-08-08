@@ -1,6 +1,8 @@
 package main
 
-import "github.com/ginkgo1981/go-learn/src/first_class_functions"
+import (
+		"github.com/ginkgo1981/go-learn/src/go_oop"
+)
 
 func main() {
 	//simple_server.StartServer()
@@ -25,7 +27,10 @@ func main() {
 
 	//go_err_handling.CustomErrorDemo()
 	//go_err_handling.PanicRecoverDemo()
-	first_class_functions.HighorderFuncionDemo()
+
+	//first_class_functions.HighorderFuncionDemo()
+
+	go_oop.PolymorphismDemo()
 }
 
 
